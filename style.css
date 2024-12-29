@@ -1,0 +1,24 @@
+body {
+    font-family: serif;
+    font-style: italic;
+}
+
+
+
+@media(max-width: 500px) {
+    body {
+        background-color: rebeccapurple;
+        font-size: 2rem;
+        display: grid;
+        justify-content: center;
+    }
+}
+
+.buttonF > .buttonS {
+    display:grid;
+    order: 1;
+}
+
+.container-2 {
+    object-fit: cover;
+}
